@@ -1,0 +1,20 @@
+{
+    "name": "tom/hf-client",
+    "authors": [
+        {
+            "name": "newQuery",
+            "email": "wilmshorst.tom@gmail.com"
+        }
+    ],
+    "require": {
+        "newquery/hf-php-client": "^1.1",
+        "klein/klein": "^2.1",
+        "twig/twig": "^2.12",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

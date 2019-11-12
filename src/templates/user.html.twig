@@ -1,0 +1,24 @@
+<div style="text-align: center;">
+    <div>
+        <img src="{{ result.avatar }}">
+    </div>
+    <div>
+        Username: <a href="https://hackforums.net/member.php?action=profile&uid={{ uid }}"><b>{{ result.username }}</b></a>
+        <p><i>{{ result.usertitle }}</i></p>
+    </div>
+    <div>
+        <img src="https://hackforums.net/{{ result.displaygroup.userbar }}">
+    </div>
+    <div>
+        Post count: <a href="https://hackforums.net/search.php?action=finduser&uid={{ uid }}"><b>{{ result.postnum }}</b></a>
+    </div>
+    <div>
+        Reputation: <a href="https://hackforums.net/reputation.php?uid={{ uid }}"><b style="color: green">{{ result.reputation }}</b></a>
+    </div>
+    <div>
+        Register date <small>(mm/dd/yyyy)</small>: <b>{{ result.regdate|date('m/d/Y') }}</b>
+    </div>
+    <div>
+        Last online <small>(mm/dd/yyyy hh:mm:ss)</small>: <b>{{ result.lastactive|date('m/d/Y H:i:s') }}</b>
+    </div>
+</div>

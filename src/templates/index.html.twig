@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>HF API PHP Client</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>
+            HF PHP Client Demo
+        </h1>
+        <div class="container">
+            <div class="User">
+                <form id="form--User" action="/user" method="POST">
+                    <div class="form-group">
+                        <label for="uidInput">User UID</label>
+                        <input type="text" class="form-control" id="uidInput" name="uid" aria-describedby="uidHelp" placeholder="2602549">
+                        <small id="uidHelp" class="form-text text-muted">User unique ID</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="viewUserButton">Submit</button>
+                </form>
+                <div id="User--content"></div>
+                <div id="User--error" style="color: red; text-align:center"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/user.ajax.js"></script>
+
+</body>
+</html>
