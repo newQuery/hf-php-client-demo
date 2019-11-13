@@ -17,7 +17,7 @@ class CustomTwigHandler
     {
         $this->loader = new FilesystemLoader(self::PATH_TEMPLATES);
         $this->twig = new Environment($this->loader, [
-            'cache' => self::PATH_CACHES,
+//            'cache' => self::PATH_CACHES,
         ]);
     }
 }

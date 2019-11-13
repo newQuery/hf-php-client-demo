@@ -6,7 +6,7 @@ use Handler\HttpResponse;
 
 require_once __DIR__.'/vendor/autoload.php';
 
-const HF_API_KEY = "YOUR_KEY_HERE";
+const HF_API_KEY = "YOUR_HF_API_KEY";
 
 require_once __DIR__ . '/vendor/autoload.php';
 
