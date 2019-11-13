@@ -1,5 +1,7 @@
 # Demo usage of HF API PHP Client 
 
+![HF PHP Client Demo](https://i.imgur.com/XSavlf9.gif)
+
 ### Install
 
 `cd /path/to/html`
