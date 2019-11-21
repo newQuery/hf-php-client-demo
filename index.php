@@ -8,8 +8,6 @@ require_once __DIR__.'/vendor/autoload.php';
 
 const HF_API_KEY = "YOUR_HF_API_KEY";
 
-require_once __DIR__ . '/vendor/autoload.php';
-
 $klein = new \Klein\Klein();
 
 /** @var Klein\Request $request */
